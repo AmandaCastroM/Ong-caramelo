@@ -1,0 +1,36 @@
+.header {
+    padding: 160px 40px 80px 40px;
+}
+
+
+.cadastro-voluntarios {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid var(--gray-tertiary);
+    padding: 8px;
+    border-radius: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cadastro-voluntarios button {
+    width: 350px;
+}
+
+.cadastro-voluntarios {
+    margin-bottom: 160px;
+}
